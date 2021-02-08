@@ -1,0 +1,64 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+a.header {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header a.SignIn {
+    font-size: 16px;
+    background-color: none;
+    font-weight: bold;
+    padding: 15px 41px;
+    border: 1px solid #173A56;
+    color: #173A56;
+}
+
+.header a.SignIn:hover {
+    background-color: none;
+    border: 1px solid #317cb9;
+}
+
+ a.btn {
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+    padding: 15px 41px;
+}
+
+#jumbotron h1, .content h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #2F281E;
+}
+
+#jumbotron p {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.kotak {
+    padding: 25px 20px 9px 20px;
+    border-radius: 15px;
+    background-color: #7752BE;
+}
+
+.kotaksm {
+    padding: 4px 2px;
+    border: 1px solid rgb(240, 238, 238);
+}
+
+
+
+@media (max-width: 991.98px) { 
+    #btn-Primary {
+        margin-top: 8px;
+        margin-left: 0 !important;
+    }
+    #btn-Secondary {
+        margin-top: 8px;
+        margin-left: 0 !important;
+    }
+}
+
